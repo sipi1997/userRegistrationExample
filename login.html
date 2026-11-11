@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Example</title>
+</head>
+<body>
+  <main class="mt-5">
+        <h1>Hello, no css here, only form validation! Check script for logic :)</h1>
+        <form id="register" action="" novalidate>
+              <label for="name">Nome e cognome</label>
+              <input id="name" type="text" name="name">
+              <p class="field-error" id="name-error"></p>
+              <label for="email">E-mail</label>
+              <input id="email" type="email" name="email">
+              <p class="field-error" id="email-error"></p>
+              <label for="password">Password</label> <button id="psw-gen" class="btn btn-primary" type="button">Genera password</button> <button id="view-psw" class="btn btn-secondary" type="button">Vedi password</button> 
+              <input id="password" type="password" name="password">
+              <p class="field-error" id="password-error"></p>
+              <label for="tel">Telefono</label>
+              <input id="tel" type="tel" name="tel" inputmode="numeric">
+              <p class="field-error" id="tel-error"></p>
+              <button type="submit" class="btn btn-primary">Invia</button>
+          </form> 
+  </main>
+  <script src="script.js" defer=""> </script>
+</body>
+</html>
